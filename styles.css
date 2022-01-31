@@ -154,6 +154,7 @@ body {
     color: #272a31;
     font-weight: 700;
   }
+  
   .menu_items li a:focus {
     text-decoration: underline;
   }
