@@ -170,7 +170,7 @@ body {
     opacity: 0.5;
   }
 
-  .about a {
+  .email_link {
     color: #272a31;
     font-weight: 600;
     text-align: center;
@@ -237,10 +237,12 @@ body {
     color: #ffbe01;
     font-size: 46px;
   }
+
   .past_event_card p {
     color: #d3d3d3;
     font-weight: 800;
   }
+
   .partners {
     background-color: #272a31;
     height: 15vh;
@@ -267,6 +269,7 @@ body {
     width: 100px;
     height: 45px;
   }
+
   .partner_0 {
     background: url("src/dclogo.webp");
     background-size: contain;
@@ -334,6 +337,7 @@ body {
     cursor: pointer;
     font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
   }
+
   .images_1,
   .images_2,
   .images_3,
@@ -347,7 +351,7 @@ body {
     background-size: contain;
     z-index: -1;
   }
-  
+
   .images_2 {
     top: 100px;
     left: 20px;
@@ -356,14 +360,14 @@ body {
   .images_3 {
     top: 950px;
     left: 120px;
-	z-index: 5;
+    z-index: 5;
   }
 
   .images_4 {
-	background: url('src/flash_2.png');
-	background-size: contain;
-	top: 300px;
-	left: 50%;
+    background: url('src/flash_2.png');
+    background-size: contain;
+    top: 300px;
+    left: 50%;
   }
 }
 
