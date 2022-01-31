@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Flash Comicon
+# Flash Comicon 2022
 
 > Flash.
 <!-- ![screenshot](./hello_microverse.png) -->
@@ -11,7 +11,10 @@ Additional description about the project and its features.
 ## Screenshots Desktop 📷
 
 ## Screenshots Mobile 📷📲
-
+![screenshot](./src/screenshots/home_0.PNG)
+![screenshot](./src/screenshots/home_1.PNG)
+![screenshot](./src/screenshots/about_0.PNG)
+![screenshot](./src/screenshots/about_1.PNG)
 ## Built With
 
 - HTML
