@@ -9,11 +9,12 @@ body {
     background-size: cover;
     width: 100%;
   }
+
   .menu_button {
     border: none;
     margin-left: 10px;
     cursor: pointer;
-    background-color: Transparent;
+    background-color: transparent;
   }
 
   .menu_icon {
@@ -100,7 +101,7 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 10px;
     display: flex;
-    justify-content: sspace-between;
+    justify-content: space-between;
     gap: 10px;
     align-items: center;
     align-content: flex-start;
@@ -110,6 +111,7 @@ body {
   .time_card p {
     font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
   }
+
   .activity_title {
     color: red;
     font-size: 32px;
@@ -191,7 +193,6 @@ body {
     border: 1px solid #d3d3d3;
     width: 90%;
     height: 200px;
-    margin: auto;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -346,20 +347,23 @@ body {
     background-size: contain;
     z-index: -1;
   }
+  
   .images_2 {
     top: 100px;
     left: 20px;
   }
+
   .images_3 {
     top: 950px;
     left: 120px;
 	z-index: 5;
   }
+
   .images_4 {
-	  background: url('src/flash_2.png');
-	  background-size: contain;
-	  top: 300;
-	  left: 50%;
+	background: url('src/flash_2.png');
+	background-size: contain;
+	top: 300px;
+	left: 50%;
   }
 }
 
