@@ -638,7 +638,7 @@ footer {
     margin-top: 50px;
     width: 55%;
     background-color: white;
-    border: 1 solid #272a31;
+    border: 0.5px solid #272a31;
     opacity: 1;
     margin-bottom: 50px;
   }
