@@ -20,15 +20,33 @@
 
 	<body>
 		<header class="header">
+			<a href="./" class="logo"></a>
 			<nav class="navbar">
 				<button class="menu_button">
 					<i class="material-icons menu_icon">menu</i>
 				</button>
+				<button class="close_button show_drawer">
+					<i class="material-icons menu_icon">close</i>
+				</button>
+				<ul class="nav_menus">
+					<li>
+						<a href="./about.html" class="menu_link">About</a>
+					</li>
+					<li>
+						<a href="#Program" class="menu_link">Program</a>
+					</li>
+					<li>
+						<a href="#Join" class="menu_link">Join</a>
+					</li>
+					<li>
+						<a href="#News" class="menu_link">News</a>
+					</li>
+				</ul>
 			</nav>
 			<nav class="open_nav show_drawer">
 				<ul class="menu_items">
 					<li>
-						<a href="#About">About</a>
+						<a href="./about.html">About</a>
 					</li>
 					<li>
 						<a href="#Program">Program</a>
@@ -41,6 +59,9 @@
 					</li>
 				</ul>
 			</nav>
+			<button class="rsvp_btn">
+				RSVP
+			</button>
 		</header>
 		<div class="page_images">
 			<div class="images_1"></div>
@@ -49,58 +70,65 @@
 			<div class="images_4"></div>
 		</div>
 		<section class="intro">
-			<h4>
-				"We believe in the impossible, make it possible to join us this year."
-			</h4>
-			<h1>
-				FLASH COMICON 2022
-			</h1>
-			<div class="into_text_container">
-				<p>
-					Barry Allen, a forensic investigator in Central City, gains the power of superhuman speed from a
-					freak accident. He
-					decides to use it to fight crime as the Flash, a costumed superhero.
-				</p>
+			<div class="intro_details">
+				<h4 class="quote">
+					"We believe in the impossible, make it possible to join us this year."
+				</h4>
+				<h1 class="comic_title">
+					FLASH COMICON 2022 NYC
+				</h1>
+				<div class="into_text_container">
+					<p>
+						Barry Allen, a forensic investigator in Central City, gains the power of superhuman speed from a
+						freak accident. He
+						decides to use it to fight crime as the Flash, a costumed superhero.
+					</p>
+				</div>
+				<h3 class="time_text">
+					WHEN: 2022.04.14(THU) ~ 15(FRI)
+				</h3>
+				<h4 class="location_text">@Central City DC Universe</h4>
 			</div>
-			<h3 class="time_text">
-				WHEN: 2022.04.14(THU) ~ 15(FRI)
-			</h3>
-			<h4>@The Flash DC Universe</h4>
 			<div class="program_details">
 				<div class="details_context">
 					<h4 class="time_line_header">Timeline</h4>
 					<hr class="divider">
-					<div class="time_card">
-						<i class="material-icons menu_icon">bolt</i>
-						<h3 class="activity_title">Comics</h3>
-						<p class="activity_description">
-							Comic books signing and review with some of our well know DC universe creators.
-						</p>
-					</div>
-					<div class="time_card">
-						<i class="material-icons menu_icon">bolt</i>
-						<h3 class="activity_title">Actors</h3>
-						<p class="activity_description">
-							You will get a chance to meet the actors of our universe characters and get a chance to ask
-							your favourites stars questions.
-						</p>
-					</div>
-					<div class="time_card">
-						<i class="material-icons menu_icon">bolt</i>
-						<h3 class="activity_title">Plans</h3>
-						<p class="activity_description">
-							Get a chance to know what we have planned for the future "Flash" and what the DC universe
-							has planned for it's viewers.
-						</p>
-					</div>
-					<div class="time_card">
-						<i class="material-icons menu_icon">bolt</i>
-						<h3 class="activity_title">Gifts</h3>
-						<p class="activity_description">
-							See us award some of our fans and best stars for last year.
-						</p>
+					<div class="programs_list">
+						<div class="time_card">
+							<i class="material-icons menu_icon">bolt</i>
+							<h3 class="activity_title">Comics</h3>
+							<p class="activity_description">
+								Comic books signing and review with some of our well know DC universe creators.
+							</p>
+						</div>
+						<div class="time_card">
+							<i class="material-icons menu_icon">bolt</i>
+							<h3 class="activity_title">Actors</h3>
+							<p class="activity_description">
+								You will get a chance to meet the actors of our universe characters and get a chance to
+								ask
+								your favourites stars questions.
+							</p>
+						</div>
+						<div class="time_card">
+							<i class="material-icons menu_icon">bolt</i>
+							<h3 class="activity_title">Plans</h3>
+							<p class="activity_description">
+								Get a chance to know what we have planned for the future "Flash" and what the DC
+								universe
+								has planned for it's viewers.
+							</p>
+						</div>
+						<div class="time_card">
+							<i class="material-icons menu_icon">bolt</i>
+							<h3 class="activity_title">Gifts</h3>
+							<p class="activity_description">
+								See us award some of our fans and best stars for last year.
+							</p>
+						</div>
 					</div>
 				</div>
+				<a href="#" class="see_more">SEE THE WHOLE PROGRAM </a>
 				<button type="button" class="join_btn">
 					Join Flash Comicon 2022
 				</button>
@@ -111,56 +139,153 @@
 				Featured Speakers
 			</h3>
 			<hr class="divider_small">
-			<ul class="speakers_list">
-				<li>
-					<div class="speaker_card">
-						<div class="speaker_avatar">
-							<i class="material-icons bolt_gold">bolt</i>
-						</div>
-						<div class="speaker_info_card">
-							<h3>
-								Grant Gustin
-							</h3>
-
-							<p class="short_intro">
-								Thomas Grant Gustin is an American actor and singer.
-							</p>
-
-							<p>
-								He is best known for his roles as Barry Allen / The Flash on the CW series The Flash as
-								part of the Arrowverse
-								television franchise, and for his role as Sebastian Smythe on the Fox series Glee
-							</p>
-						</div>
+			<div class="speakers_list">
+				<div class="speaker_card">
+					<div class="speaker_avatar">
+						<i class="material-icons bolt_gold">bolt</i>
 					</div>
-				</li>
+					<div class="speaker_info_card">
+						<h3>
+							Grant Gustin
+						</h3>
 
-				<li>
-					<div class="speaker_card">
-						<div class="speaker_avatar_1">
-							<i class="material-icons bolt_gold">bolt</i>
-						</div>
-						<div class="speaker_info_card">
-							<h3>
-								Stephen Amell
-							</h3>
+						<p class="short_intro">
+							Thomas Grant Gustin is an American actor and singer.
+						</p>
 
-							<p class="short_intro">
-								Stephen Adam Amell is a Canadian actor.
-							</p>
-
-							<p>
-								He came to prominence for playing the lead role of Oliver Queen on The CW superhero
-								series Arrow.
-							</p>
-						</div>
+						<p>
+							He is best known for his roles as Barry Allen / The Flash on the CW series The Flash as
+							part of the Arrowverse
+							television franchise, and for his role as Sebastian Smythe on the Fox series Glee
+						</p>
 					</div>
-				</li>
-			</ul>
+				</div>
+				<div class="speaker_card">
+					<div class="speaker_avatar">
+						<i class="material-icons bolt_gold">bolt</i>
+					</div>
+					<div class="speaker_info_card">
+						<h3>
+							Grant Gustin
+						</h3>
+
+						<p class="short_intro">
+							Thomas Grant Gustin is an American actor and singer.
+						</p>
+
+						<p>
+							He is best known for his roles as Barry Allen / The Flash on the CW series The Flash as
+							part of the Arrowverse
+							television franchise, and for his role as Sebastian Smythe on the Fox series Glee
+						</p>
+					</div>
+				</div>
+				<div class="speaker_card">
+					<div class="speaker_avatar">
+						<i class="material-icons bolt_gold">bolt</i>
+					</div>
+					<div class="speaker_info_card">
+						<h3>
+							Grant Gustin
+						</h3>
+
+						<p class="short_intro">
+							Thomas Grant Gustin is an American actor and singer.
+						</p>
+
+						<p>
+							He is best known for his roles as Barry Allen / The Flash on the CW series The Flash as
+							part of the Arrowverse
+							television franchise, and for his role as Sebastian Smythe on the Fox series Glee
+						</p>
+					</div>
+				</div>
+				<div class="speaker_card">
+					<div class="speaker_avatar_1">
+						<i class="material-icons bolt_gold">bolt</i>
+					</div>
+					<div class="speaker_info_card">
+						<h3>
+							Stephen Amell
+						</h3>
+
+						<p class="short_intro">
+							Stephen Adam Amell is a Canadian actor.
+						</p>
+
+						<p>
+							He came to prominence for playing the lead role of Oliver Queen on The CW superhero
+							series Arrow.
+						</p>
+					</div>
+				</div>
+				<div class="speaker_card">
+					<div class="speaker_avatar_1">
+						<i class="material-icons bolt_gold">bolt</i>
+					</div>
+					<div class="speaker_info_card">
+						<h3>
+							Stephen Amell
+						</h3>
+
+						<p class="short_intro">
+							Stephen Adam Amell is a Canadian actor.
+						</p>
+
+						<p>
+							He came to prominence for playing the lead role of Oliver Queen on The CW superhero
+							series Arrow.
+						</p>
+					</div>
+				</div>
+				<div class="speaker_card">
+					<div class="speaker_avatar_1">
+						<i class="material-icons bolt_gold">bolt</i>
+					</div>
+					<div class="speaker_info_card">
+						<h3>
+							Stephen Amell
+						</h3>
+
+						<p class="short_intro">
+							Stephen Adam Amell is a Canadian actor.
+						</p>
+
+						<p>
+							He came to prominence for playing the lead role of Oliver Queen on The CW superhero
+							series Arrow.
+						</p>
+					</div>
+				</div>
+			</div>
 			<button class="more_btn">
 				VIEW MORE
 			</button>
 		</section>
+		<section class="partners">
+			<h3>
+				Partner
+			</h3>
+			<hr class="divider_small">
+			<div class="partner_icons">
+				<div class="partner_0"></div>
+				<div class="partner_1"></div>
+				<div class="partner_2"></div>
+			</div>
+
+
+		</section>
+		<footer>
+			<div class="logo_image_footer"></div>
+			<h3>
+				Flash comicon NYC
+			</h3>
+			<p>
+				2022 Flash Comicon NYC
+				Some Rights Reserved
+			</p>
+		</footer>
+		<script src="js/main.js"></script>
 	</body>
 
 </html>
