@@ -1,5 +1,5 @@
 body {
-  background-color: #d3d3d3;
+  background-color: white;
 }
 
 @media (max-width: 768px) {
@@ -17,16 +17,16 @@ body {
     background-color: transparent;
   }
 
+  .close_button {
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
   .menu_icon {
     color: red;
     font-size: 48px !important;
-  }
-
-  .bolt_gold {
-    color: #ffbe01;
-    font-size: 75px !important;
-    position: absolute;
-    left: 0;
   }
 
   .intro,
@@ -37,6 +37,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 14px;
+  }
+
+  .about_history {
+    margin-top: 75px;
   }
 
   body {
@@ -71,57 +75,7 @@ body {
     width: 100%;
   }
 
-  .time_line_header {
-    color: #d3d3d3;
-    text-align: center;
-    font-size: 24px;
-  }
-
-  .divider,
-  .divider_small {
-    width: 20%;
-    border: 2px solid red;
-    border-radius: 10px;
-    background-color: red;
-    margin-bottom: 20px;
-  }
-
-  .divider_small {
-    width: 6%;
-  }
-
-  .time_card {
-    margin-right: auto;
-    margin-left: auto;
-    width: 90%;
-    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
-    height: 67px;
-    border-radius: 5px;
-    backdrop-filter: blur(14px);
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    align-items: center;
-    align-content: flex-start;
-    margin-bottom: 10px;
-  }
-
   .time_card p {
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
-  }
-
-  .activity_title {
-    color: red;
-    font-size: 32px;
-    font-weight: 600;
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
-    width: 25%;
-  }
-
-  .activity_description {
-    color: #d3d3d3;
     font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
   }
 
@@ -145,13 +99,13 @@ body {
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .menu_items li a {
     text-decoration: none;
     font-size: 20px;
-    color: #272a31;
+    color: #d3d3d3;
     font-weight: 700;
   }
 
@@ -162,167 +116,11 @@ body {
   .show_drawer {
     display: none;
     visibility: collapse;
-  }
-
-  .about_info_container {
-    background-color: white;
-    padding: 10px;
-    text-align: center;
-    opacity: 0.5;
-  }
-
-  .email_link {
-    color: #272a31;
-    font-weight: 600;
-    text-align: center;
+    transition: 300ms;
   }
 
   .about p {
     text-align: center;
-  }
-
-  .about_data {
-    background-color: white;
-    margin: 0;
-    text-align: center;
-    height: 30vh;
-  }
-
-  .comicon_logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #d3d3d3;
-    width: 90%;
-    height: 200px;
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .logo_image,
-  .logo_image_footer {
-    background-image: url("src/ic_2022.jfif");
-    background-size: contain;
-    width: 140px;
-    height: 140px;
-    background-repeat: no-repeat;
-    margin: auto;
-    align-self: center;
-  }
-
-  .logo_image_footer {
-    width: 70px;
-    height: 70px;
-  }
-
-  .about_history {
-    text-align: center;
-    align-items: center;
-  }
-
-  .past_event_card {
-    width: 90%;
-    height: 20vh;
-    background-image: url("src/past_comicon.jfif");
-    background-size: contain;
-    display: flex;
-    opacity: 0.5;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-
-  .past_event_card h3 {
-    margin: auto;
-    color: #ffbe01;
-    font-size: 46px;
-  }
-
-  .past_event_card p {
-    color: #d3d3d3;
-    font-weight: 800;
-  }
-
-  .partners {
-    background-color: #272a31;
-    height: 15vh;
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .partners h3 {
-    color: #d3d3d3;
-  }
-
-  .partner_icons {
-    display: flex;
-    align-content: space-around;
-  }
-
-  .partner,
-  .partner_0,
-  .partner_1,
-  .partner_2 {
-    width: 100px;
-    height: 45px;
-  }
-
-  .partner_0 {
-    background: url("src/dclogo.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .partner_1 {
-    background: url("src/ic_dc.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .partner_2 {
-    background: url("src/ic_dc_infinite.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .speakers h3 {
-    text-align: center;
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
-  }
-
-  .speaker_card {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-
-  .speaker_avatar,
-  .speaker_avatar_1 {
-    width: 55%;
-    height: 12vh;
-    background: url("src/gustin.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 10px;
-  }
-
-  .speaker_avatar_1 {
-    background: url("src/stephen.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 10px;
-  }
-
-  .speaker_info_card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 95%;
   }
 
   .time_text {
@@ -365,17 +163,261 @@ body {
   }
 
   .images_4 {
-    background: url('src/flash_2.png');
+    background: url("src/flash_2.png");
     background-size: contain;
     top: 300px;
     left: 50%;
   }
+
+  .nav_menus,
+  .rsvp_btn {
+    visibility: collapse;
+    display: none;
+  }
+}
+
+.time_line_header {
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 24px;
+}
+
+.divider,
+.divider_small,
+.section_divider {
+  width: 20%;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.divider_small {
+  width: 6%;
+}
+
+.section_divider {
+  width: 100%;
+  border: 0.5px solid #272a31;
+  margin: 0;
+  opacity: 0.2;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+.time_card {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 67px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  align-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.activity_title {
+  color: red;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+  width: 25%;
+  margin: 0;
+  text-align: center;
+}
+
+.activity_description {
+  color: #d3d3d3;
+  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+}
+
+.speakers_list {
+  display: grid;
+}
+
+.speaker_card {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.speaker_avatar,
+.speaker_avatar_1 {
+  width: 55%;
+  height: 12vh;
+  background: url("src/gustin.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.speaker_avatar_1 {
+  background: url("src/stephen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.speaker_info_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95%;
+}
+
+.bolt_gold {
+  color: #ffbe01;
+  font-size: 75px !important;
+  position: absolute;
+  left: 0;
+}
+
+.speakers h3 {
+  text-align: center;
+  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.about_info_container {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.email_link {
+  color: #272a31;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about_data {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  height: 30vh;
+}
+
+.comicon_logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #d3d3d3;
+  width: 90%;
+  height: 200px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-self: center;
+}
+
+.logo_image,
+.logo_image_footer {
+  background-image: url("src/ic_2022.jfif");
+  background-size: contain;
+  width: 140px;
+  height: 140px;
+  background-repeat: no-repeat;
+  margin: auto;
+  align-self: center;
+}
+
+.logo_image_footer {
+  width: 70px;
+  height: 70px;
+}
+
+.past_list {
+  display: inline;
+}
+
+.about_history {
+  text-align: center;
+  align-items: center;
+}
+
+.past_event_card {
+  width: 400px;
+  height: 20vh;
+  background-image: url("src/past_comicon.jfif");
+  background-size: contain;
+  display: flex;
+  opacity: 0.5;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.past_event_card h3 {
+  margin: auto;
+  color: #ffbe01;
+  font-size: 46px;
+}
+
+.past_event_card p {
+  color: #d3d3d3;
+  font-weight: 800;
+}
+
+.partners {
+  background-color: #272a31;
+  height: 18vh;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners h3 {
+  color: #d3d3d3;
+}
+
+.partner_icons {
+  display: flex;
+  align-content: space-around;
+}
+
+.partner,
+.partner_0,
+.partner_1,
+.partner_2 {
+  width: 100px;
+  height: 45px;
+}
+
+.partner_0 {
+  background: url("src/dclogo.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.partner_1 {
+  background: url("src/ic_dc.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.partner_2 {
+  background: url("src/ic_dc_infinite.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 h1 {
   color: red;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 44px;
+  margin: 0;
   font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
 }
 
@@ -400,4 +442,272 @@ footer {
 .short_intro {
   font-style: italic;
   color: red;
+  margin: 0;
+}
+
+.see_more {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .menu_button {
+    display: none;
+  }
+  .open_nav {
+    display: none;
+  }
+  .nav_menus {
+    list-style-type: none;
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-self: end;
+    visibility: visible;
+    width: auto;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    position: relative;
+    width: auto;
+    left: 0;
+    top: 0;
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0 0.5px 0 #dddfe6;
+    justify-content: center;
+    align-self: center;
+  }
+
+  body {
+    margin: auto;
+    max-width: 1440px;
+  }
+
+  .menu_link,
+  .active_menu {
+    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #272a31;
+    text-decoration: none;
+    align-self: center;
+    padding: 40px;
+  }
+
+  .active_menu {
+    color: red;
+    font-weight: bold;
+  }
+
+  .intro,
+  .about,
+  .about_data,
+  .about_history,
+  .speakers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .intro_details {
+    margin-left: 15%;
+  }
+
+  .into_text_container {
+    border: 5px;
+    border-color: #ffbe01;
+    border-style: solid;
+    padding: 15px;
+    width: 55%;
+    margin-top: 15px;
+  }
+
+  .quote {
+    color: red;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: "IBM Plex Serif", Arial, Verdana;
+  }
+
+  .comic_title {
+    font-weight: bolder;
+    font-size: 100px;
+  }
+
+  .time_text {
+    margin-top: 55px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .location_text {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .program_details {
+    margin-top: 10%;
+    color: #272a31;
+    background: #272a31;
+    background-image: url("src/lighting.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .time_card {
+    flex-direction: column;
+    width: 15%;
+    height: 15% !important;
+    margin: 5px;
+    align-self: center;
+  }
+
+  .programs_list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .see_more {
+    display: inline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    color: #d3d3d3;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .join_btn {
+    display: none;
+  }
+
+  .speakers h3 {
+    text-align: center;
+    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+  }
+
+  .activity_title {
+    width: auto;
+  }
+
+  .activity_description {
+    text-align: center;
+  }
+
+  .speakers_list {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    margin: auto;
+    column-gap: 10px;
+    row-gap: 15px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    align-self: center;
+  }
+
+  .speaker_avatar,
+  .speaker_avatar_1 {
+    width: 20% !important;
+    height: 8vh;
+  }
+
+  .bolt_gold {
+    position: unset;
+  }
+
+  .about_info_container {
+    margin-top: 50px;
+    width: 55%;
+    background-color: white;
+    border: 0.5 solid #272a31;
+    opacity: 1;
+    margin-bottom: 50px;
+  }
+
+  .about {
+    justify-self: center;
+    align-items: center;
+    background-color: #d3d3d3;
+    margin-top: 0;
+    padding-top: 6%;
+  }
+
+  .email_link {
+    margin-bottom: 50px;
+  }
+
+  .past_event_card {
+    width: 450px;
+  }
+
+  .past_list {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    column-gap: 20px;
+    row-gap: 25px;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    margin-top: 50px;
+  }
+
+  .about_visibility {
+    display: none;
+  }
+
+  .comicon_logo {
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  .close_button,
+  .more_btn {
+    visibility: collapse;
+    display: none;
+  }
+
+  .rsvp_btn {
+    height: 40px;
+    border: 5px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+
+  .logo {
+    background: url("src/ic_2022.jfif");
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clip-path: circle();
+    margin-right: 10%;
+  }
 }
