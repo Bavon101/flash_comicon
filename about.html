@@ -19,15 +19,34 @@
 
 	<body>
 		<header class="header">
-			<nav class="davbar">
+			<a href="./" class="logo"></a>
+			<nav class="navbar">
 				<button class="menu_button">
 					<i class="material-icons menu_icon">menu</i>
 				</button>
+				<button class="close_button show_drawer">
+					<i class="material-icons menu_icon">close</i>
+				</button>
+
+				<ul class="nav_menus">
+					<li>
+						<a href="./about.html" class="menu_link active_menu">About</a>
+					</li>
+					<li>
+						<a href="#Program" class="menu_link">Program</a>
+					</li>
+					<li>
+						<a href="#Join" class="menu_link">Join</a>
+					</li>
+					<li>
+						<a href="#News" class="menu_link">News</a>
+					</li>
+				</ul>
 			</nav>
 			<nav class="open_nav show_drawer">
 				<ul class="menu_items">
 					<li>
-						<a href="#About">About</a>
+						<a href="./about.html" class="active_menu">About</a>
 					</li>
 					<li>
 						<a href="#Program">Program</a>
@@ -40,10 +59,14 @@
 					</li>
 				</ul>
 			</nav>
+
+			<button class="rsvp_btn">
+				RSVP
+			</button>
 		</header>
 		<section class="about">
-			<h1>
-				FLASH COMICON 2022
+			<h1 class="comic_title">
+				FLASH COMICON 2022 NYC
 			</h1>
 			<div class="about_info_container">
 				<p>
@@ -57,6 +80,7 @@
 			</p>
 			<a class="email_link" href="bavonakumu@gmail.com">flashcomicon2022@dc.universe</a>
 		</section>
+		<hr class="section_divider">
 		<section class="about_data">
 			<h3>
 				Flash Comicon
@@ -70,27 +94,30 @@
 				</h6>
 			</div>
 		</section>
+		<hr class="section_divider">
 		<section class="about_history">
 			<h3>
 				See the past Flash Comicons
 			</h3>
 			<hr class="divider_small">
 			<p>Take a look at the past timeline events of the flash universe,which took place in NYC</p>
-			<div class="past_event_card">
-				<h3>
-					2020
-				</h3>
-				<p>
-					Time is moving
-				</p>
-			</div>
-			<div class="past_event_card">
-				<h3>
-					2017
-				</h3>
-				<p>
-					Chasing time
-				</p>
+			<div class="past_list">
+				<div class="past_event_card">
+					<h3>
+						2020
+					</h3>
+					<p>
+						Time is moving
+					</p>
+				</div>
+				<div class="past_event_card">
+					<h3>
+						2017
+					</h3>
+					<p>
+						Chasing time
+					</p>
+				</div>
 			</div>
 		</section>
 		<section class="partners">
@@ -106,7 +133,7 @@
 
 
 		</section>
-		<footer>
+		<footer class="about_visibility">
 			<div class="logo_image_footer"></div>
 			<h3>
 				Flash comicon NYC
@@ -116,7 +143,8 @@
 				Some Rights Reserved
 			</p>
 		</footer>
+		<script src="js/main.js"></script>
 	</body>
-	
+
 
 </html>
