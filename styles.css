@@ -2,6 +2,11 @@ body {
   background-color: white;
 }
 
+h3 {
+  color: #272a31;
+  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+}
+
 @media (max-width: 768px) {
   .header {
     background: url("src/ic_flash_header.jfif");
@@ -377,11 +382,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-h3 {
-  color: #272a31;
-  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
 }
 
 .partners h3 {
