@@ -206,6 +206,7 @@ body {
 ul {
   padding-inline-start: 0;
 }
+
 .time_card {
   margin-right: auto;
   margin-left: auto;
@@ -378,6 +379,11 @@ ul {
   align-items: center;
 }
 
+h3 {
+  color: #272a31;
+  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+}
+
 .partners h3 {
   color: #d3d3d3;
 }
@@ -421,11 +427,6 @@ h1 {
   font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
 }
 
-h3 {
-  color: #272a31;
-  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
-}
-
 h4 {
   font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
 }
@@ -453,9 +454,11 @@ footer {
   .menu_button {
     display: none;
   }
+
   .open_nav {
     display: none;
   }
+
   .nav_menus {
     list-style-type: none;
     display: flex;
@@ -531,7 +534,7 @@ footer {
     color: red;
     font-weight: 200;
     font-size: 30px;
-    font-family: "IBM Plex Serif", Arial, Verdana;
+    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
   }
 
   .comic_title {
@@ -618,8 +621,6 @@ footer {
     margin: auto;
     column-gap: 10px;
     row-gap: 15px;
-    /* margin-left: 10%;
-    margin-right: 10%; */
     align-self: center;
   }
 
@@ -637,7 +638,7 @@ footer {
     margin-top: 50px;
     width: 55%;
     background-color: white;
-    border: 0.5 solid #272a31;
+    border: 1 solid #272a31;
     opacity: 1;
     margin-bottom: 50px;
   }
