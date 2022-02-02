@@ -48,8 +48,6 @@ const speakers = [{
 },
 ];
 
-const styleImagesList = ['./src/flash_1.png', './src/flash_2.png','']
-
 function createSpeakers() {
   const speakersList = document.getElementById('speakers_list');
   for (let i = 0; i < (window.screen.width > 768 ? speakers.length : 3); i += 1) {
@@ -82,8 +80,7 @@ function createSpeakers() {
     speakerInfoCard.appendChild(description);
     speakerCard.appendChild(speakerInfoCard);
     speakersList.appendChild(speakerCard);
-}
-
+  }
 }
 
 createSpeakers();
