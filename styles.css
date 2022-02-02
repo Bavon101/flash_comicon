@@ -82,6 +82,7 @@ h3 {
 
   .time_card p {
     font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+    font-size: 10px;
   }
 
   .join_btn {
@@ -202,6 +203,7 @@ h3 {
 }
 
 .section_divider {
+  display: none;
   width: 100%;
   border: 0.5px solid #272a31;
   margin: 0;
@@ -232,10 +234,10 @@ ul {
 
 .activity_title {
   color: red;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 600;
   font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
-  width: 25%;
+  width: 20%;
   margin: 0;
   text-align: center;
 }
@@ -278,6 +280,15 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   width: 95%;
+}
+
+.style-images {
+  opacity: 0.1;
+  width: 54px;
+  height: 54px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .bolt_gold {
@@ -486,8 +497,13 @@ footer {
   body {
     margin: auto;
     max-width: 1440px;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 20%), url("src/ic_flash_header.jfif");
+
   }
 
+  p {
+    color: #dddfe6;
+  }
   .menu_link,
   .active_menu {
     font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
@@ -514,7 +530,7 @@ footer {
   .speakers {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 0;
   }
 
   .intro_details {
@@ -547,12 +563,14 @@ footer {
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 0;
+    color: #d3d3d3;
   }
 
   .location_text {
     margin-top: 10px;
     font-weight: 600;
     font-size: 24px;
+    color: #d3d3d3;
   }
 
   .program_details {
@@ -604,6 +622,7 @@ footer {
   .speakers h3 {
     text-align: center;
     font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+    color: #d3d3d3;
   }
 
   .activity_title {
@@ -710,5 +729,9 @@ footer {
     margin-bottom: 10px;
     clip-path: circle();
     margin-right: 10%;
+  }
+
+  .section_divider {
+    display: block;
   }
 }
