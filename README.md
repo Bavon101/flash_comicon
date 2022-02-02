@@ -9,12 +9,16 @@
 
 Additional description about the project and its features.
 ## Screenshots Desktop 📷
+![screenshot](./src/screenshots/home_1_0.PNG)
+![screenshot](./src/screenshots/home_1_1.PNG)
+![screenshot](./src/screenshots/about_1_0.PNG)
+![screenshot](./src/screenshots/about_1_1.PNG)
 
 ## Screenshots Mobile 📷📲
-![screenshot](./src/screenshots/home_0.PNG)
-![screenshot](./src/screenshots/home_1.PNG)
-![screenshot](./src/screenshots/about_0.PNG)
-![screenshot](./src/screenshots/about_1.PNG)
+![screenshot](./src/screenshots/home_0_0.PNG)
+![screenshot](./src/screenshots/home_0_1.PNG)
+![screenshot](./src/screenshots/about_0_0.PNG)
+![screenshot](./src/screenshots/about_0_1.PNG)
 ## Built With
 
 - HTML
