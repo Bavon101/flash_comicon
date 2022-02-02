@@ -13,17 +13,14 @@ closeBtn.addEventListener('click', openCloseDrawer);
 const speakers = [{
   name: 'Grant Gustin',
   short_description: 'Thomas Grant Gustin is an American actor and singer.',
-  description: `He is best known for his roles as Barry Allen / The Flash on the CW series The Flash as
-							part of the Arrowverse
-							television franchise, and for his role as Sebastian Smythe on the Fox series Glee`,
+  description: `He is best known for his roles as Barry Allen / The Flash on the CW series The Flash as	part of the Arrowverse television franchise, and for his role as Sebastian Smythe on the Fox series Glee`,
   image: './src/grant.jfif',
 },
 {
-    name: 'Stephen Amell',
-    short_description: 'Stephen Adam Amell is a Canadian actor.',
-    description: `He came to prominence for playing the lead role of Oliver Queen on The CW superhero
-							series Arrow.`,
-    image: './src/stephen.jpg',
+  name: 'Stephen Amell',
+  short_description: 'Stephen Adam Amell is a Canadian actor.',
+  description: `He came to prominence for playing the lead role of Oliver Queen on The CW superhero series Arrow.`,
+  image: './src/stephen.jpg',
 },
 {
   name: 'Tom Cavanagh',

@@ -497,13 +497,13 @@ footer {
   body {
     margin: auto;
     max-width: 1440px;
-    background:linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 20%), url("src/ic_flash_header.jfif");
-
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 20%), url("src/ic_flash_header.jfif");
   }
 
   p {
     color: #dddfe6;
   }
+
   .menu_link,
   .active_menu {
     font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
