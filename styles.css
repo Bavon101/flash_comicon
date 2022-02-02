@@ -734,4 +734,8 @@ footer {
   .section_divider {
     display: block;
   }
+
+  .p_override {
+    color: #272a31;
+  }
 }
