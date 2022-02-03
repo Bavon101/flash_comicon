@@ -50,7 +50,14 @@ const speakers = [{
 
 function createSpeakers() {
   const speakersList = document.getElementById('speakers_list');
-  for (let i = 0; i < (document.body.scrollWidth < 400 ? 2: document.body.scrollWidth > 768 ? speakers.length : 3); i += 1) {
+  const width = document.body.scrollWidth;
+  let max = speakers.length;
+  if (width <= 400) {
+    max = 2;
+  } else if (width > 400 && width <= 768) {
+    max = 3;
+  }
+  for (let i = 0; i < max; i += 1) {
     const s = speakers[i];
     const speakerCard = document.createElement('div');
     speakerCard.classList.add('speaker_card');
