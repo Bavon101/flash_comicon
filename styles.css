@@ -330,7 +330,7 @@ ul {
   background-color: white;
   margin: 0;
   text-align: center;
-  height: 30vh;
+  height: 50vh;
 }
 
 .comicon_logo {
@@ -396,7 +396,7 @@ ul {
 
 .partners {
   background-color: #272a31;
-  height: 18vh;
+  height: 25vh;
   width: 100%;
   margin-top: 20px;
   display: flex;
