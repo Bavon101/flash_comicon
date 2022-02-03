@@ -4,7 +4,11 @@ body {
 
 h3 {
   color: #272a31;
-  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+  font-family: "cocogoose", Arial, Verdana, Tahoma, sans-serif;
+}
+
+p {
+  font-family: "lato", Arial, Verdana, Tahoma, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -81,7 +85,6 @@ h3 {
   }
 
   .time_card p {
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
     font-size: 10px;
   }
 
@@ -105,18 +108,25 @@ h3 {
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    margin-bottom: 40px;
+    height: 100vh;
+    gap: 45px;
   }
 
   .menu_items li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     color: #d3d3d3;
-    font-weight: 700;
+    font-weight: 900;
+    font-family: "cocogoose", Arial, Verdana, Tahoma, sans-serif;
+  }
+
+  .menu_items li a:hover {
+    color: red;
   }
 
   .menu_items li a:focus {
     text-decoration: underline;
+    margin-top: 50px;
   }
 
   .show_drawer {
@@ -131,7 +141,6 @@ h3 {
 
   .time_text {
     font-size: 28px;
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
   }
 
   .more_btn {
@@ -225,7 +234,6 @@ ul {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 10px;
   display: flex;
-  justify-content: space-between;
   gap: 10px;
   align-items: center;
   align-content: flex-start;
@@ -236,15 +244,13 @@ ul {
   color: red;
   font-size: 20px;
   font-weight: 600;
-  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
-  width: 20%;
   margin: 0;
   text-align: center;
 }
 
 .activity_description {
   color: #d3d3d3;
-  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+  font-family: "lato", Arial, Verdana, Tahoma, sans-serif;
 }
 
 .speakers_list {
@@ -256,6 +262,8 @@ ul {
   align-content: center;
   align-items: center;
   margin-bottom: 15px;
+  background-color: #d3d3d3;
+  border-radius: 12px;
 }
 
 .speaker_avatar,
@@ -265,7 +273,8 @@ ul {
   background: url("src/gustin.jfif");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 10px;
+  margin: 15px;
+  border-radius: 12px;
 }
 
 .speaker_avatar_1 {
@@ -430,16 +439,27 @@ ul {
   background-repeat: no-repeat;
 }
 
+.white_color {
+  color: #d3d3d3;
+}
+
+.social_nav {
+  width: 100%;
+  background-color: #272a31;
+  justify-content: flex-end;
+  display: none;
+}
+
 h1 {
   color: red;
   font-weight: bold;
   font-size: 44px;
   margin: 0;
-  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+  font-family: "cocogoose", Arial, Verdana, Tahoma, sans-serif;
 }
 
 h4 {
-  font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+  font-family: "lato", Arial, Verdana, Tahoma, sans-serif;
 }
 
 footer {
@@ -461,9 +481,30 @@ footer {
   display: none;
 }
 
+.comic_title {
+  font-weight: bolder;
+  background: url("src/ic_flash_header.jfif");
+  -webkit-text-fill-color: transparent;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+}
+
 @media (min-width: 768px) {
   .menu_button {
     display: none;
+  }
+
+  .social_nav {
+    display: flex;
+  }
+
+  .top_btn {
+    background-color: transparent;
+    border: none;
+    color: #d3d3d3;
+    font-family: "lato", Arial, Verdana, Tahoma, sans-serif;
+    margin: 10px;
+    cursor: pointer;
   }
 
   .open_nav {
@@ -496,17 +537,23 @@ footer {
 
   body {
     margin: auto;
-    max-width: 1440px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 20%), url("src/ic_flash_header.jfif");
+    /* max-width: 1440px; */
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.6) 20%
+      ),
+      url("src/ic_flash_header.jfif");
   }
 
   p {
-    color: #dddfe6;
+    color: #272a31;
+    font-family: "lato", Arial, Verdana, Tahoma, sans-serif;
   }
 
   .menu_link,
   .active_menu {
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
+    font-family: "lato", Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -537,6 +584,27 @@ footer {
     margin-left: 15%;
   }
 
+  .social_icons,
+  .ic_fb,
+  .ic_twitter {
+    width: 24px;
+    height: 26px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .ic_fb {
+    background-image: url('src/ic_fb.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ic_twitter {
+     background-image: url('src/ic_twitter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   .into_text_container {
     border: 5px;
     border-color: #ffbe01;
@@ -544,18 +612,22 @@ footer {
     padding: 15px;
     width: 55%;
     margin-top: 15px;
+    background-color: #d3d3d3;
   }
 
   .quote {
     color: red;
-    font-weight: 200;
+    font-weight: 900;
     font-size: 30px;
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
   }
 
   .comic_title {
     font-weight: bolder;
+    background: url("src/ic_flash_header.jfif");
     font-size: 100px;
+    -webkit-text-fill-color: transparent;
+    background-clip: inherit;
+    -webkit-background-clip: text;
   }
 
   .time_text {
@@ -621,8 +693,8 @@ footer {
 
   .speakers h3 {
     text-align: center;
-    font-family: "IBM Plex Serif", Arial, Verdana, Tahoma, sans-serif;
-    color: #d3d3d3;
+    color: #dddfe6;
+    margin: 10px;
   }
 
   .activity_title {
@@ -637,7 +709,8 @@ footer {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     width: auto;
-    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     column-gap: 10px;
     row-gap: 15px;
     align-self: center;
