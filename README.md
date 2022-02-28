@@ -8,6 +8,8 @@
 ## You can access the live portfolio [here](https://bavon101.github.io/flash_comicon/)
 
 Additional description about the project and its features.
+This is dummy site that mimics how a live Comicon site of THE FLASH would look like 🐱‍🏍
+The site show the list of casts the event data, and it's built in a comical design 😎.
 ## Screenshots Desktop 📷
 ![screenshot](./src/screenshots/home_1_0.PNG)
 ![screenshot](./src/screenshots/home_1_1.PNG)
