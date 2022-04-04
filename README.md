@@ -5,7 +5,7 @@
 > Flash.
 <!-- ![screenshot](./hello_microverse.png) -->
 
-## You can access the live portfolio [here](https://bavon101.github.io/flash_comicon/)
+## You can access the live site [here](https://bavon101.github.io/flash_comicon/)
 
 Additional description about the project and its features.
 This is dummy site that mimics how a live Comicon site of THE FLASH would look like 🐱‍🏍
